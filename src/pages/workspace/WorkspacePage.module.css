@@ -1,0 +1,12 @@
+.centerScreen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+}
+.centerScreen :global(.MuiAlert-root) {
+  max-width: 560px;
+}

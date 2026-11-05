@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.card {
+  border-radius: 13px !important;
+}
+.card :global(.MuiCardContent) {
+  padding: 21px;
+}
+.card :global(.MuiButton-root) {
+  font-size: 12px;
+}
+@media (max-width: 580px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

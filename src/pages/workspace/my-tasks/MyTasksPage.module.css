@@ -1,0 +1,8 @@
+.filter {
+  min-width: 205px !important;
+  margin-bottom: 16px !important;
+}
+.taskList {
+  display: grid;
+  gap: 12px;
+}

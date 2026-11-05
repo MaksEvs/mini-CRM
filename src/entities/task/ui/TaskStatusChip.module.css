@@ -1,0 +1,25 @@
+.status {
+  border-radius: 6px !important;
+  font-size: 11px !important;
+  font-weight: 650 !important;
+}
+.new {
+  background: #edf0f2 !important;
+  color: #5f6c73 !important;
+}
+.inProgress {
+  background: #e4f0fc !important;
+  color: #3572a9 !important;
+}
+.inReview {
+  background: #fff3df !important;
+  color: #a36c19 !important;
+}
+.accepted {
+  background: #e1f3eb !important;
+  color: #26835d !important;
+}
+.rework {
+  background: #fce9e5 !important;
+  color: #b44b3d !important;
+}

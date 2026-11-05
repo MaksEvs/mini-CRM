@@ -1,0 +1,19 @@
+.card {
+  border-radius: 13px !important;
+}
+.card :global(.MuiCardContent) {
+  padding: 19px 21px;
+}
+.link {
+  color: #17232b !important;
+  text-decoration: none !important;
+  font-weight: 650 !important;
+}
+.link:hover {
+  color: #147d75 !important;
+}
+@media (max-width: 580px) {
+  .card :global(.MuiCardContent) {
+    padding: 15px;
+  }
+}

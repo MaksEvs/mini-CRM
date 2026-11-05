@@ -1,0 +1,17 @@
+.backButton {
+  margin-bottom: 16px !important;
+}
+.managerActions {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.taskHeading {
+  margin-top: 32px !important;
+  margin-bottom: 16px !important;
+}
+.taskList {
+  display: grid;
+  gap: 12px;
+}
